@@ -62,6 +62,10 @@ section.footer {
   text-align: center;
 }
 
+section.footer h1 {
+  font-size: 1.4em;
+}
+
 section.footer a {
   /* size */
   display: inline-block;
