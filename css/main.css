@@ -2,7 +2,8 @@ body {
   font-family: 'Noto Serif', serif;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: 400;
   font-size: inherit;
 }
@@ -40,8 +41,17 @@ section.middle .espa img {
 }
 
 section.middle .address {
-  font-size: 1.5em;
   margin: auto 0;
+}
+
+section.middle .address h1 {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+section.middle .address h2 {
+  text-align: center;
+  font-size: 1.2em;
 }
 
 section.footer {
@@ -125,7 +135,7 @@ section.footer a {
 
   section.middle .address {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   section.middle .espa {
